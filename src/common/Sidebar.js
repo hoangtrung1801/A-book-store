@@ -17,6 +17,10 @@ const Sidebar = () => {
         </Menu.Item>
         <Menu.Divider />
         <Menu.Item>
+          <Link to="/addbook">Add new book</Link>
+        </Menu.Item>
+        <Menu.Divider />
+        <Menu.Item>
           <Link to="/bookshop">Book shop</Link>
         </Menu.Item>
         <Menu.Divider />

@@ -4,6 +4,7 @@ import Sidebar from "./common/Sidebar";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import MyBook from "./features/MyBook";
 import BookShop from "./features/BookShop";
+import AddBookForm from "./features/AddBookForm";
 
 const { Sider, Content } = Layout;
 
@@ -36,6 +37,10 @@ function App() {
 
                 <Route exact path="/bookshop">
                   <BookShop />
+                </Route>
+
+                <Route exact path="/addbook">
+                  <AddBookForm />
                 </Route>
               </Switch>
             </Content>

@@ -7,6 +7,10 @@ import App from "./App";
 import store from "./app/store";
 import { Provider } from "react-redux";
 
+import makeServer from './api/server';
+
+makeServer();
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
